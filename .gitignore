@@ -1,0 +1,74 @@
+
+# .gitignore
+#
+# more info https://github.com/github/gitignore
+#
+# Help
+#
+# *       Uno o varios caracteres
+# ?       Un caracter
+# [abc]   Uno de estos caracteres
+# [0-9]   Cualquier caracter entre ellos (del 0 al 9)
+# a/**/z  Directorios anidados ** cualquier directorio entre esos directorios.
+# !       Excepcion *.a  \  !lib.a
+# /archi  solo este directorio no recursivo                                                                         
+# doc/*.txt       idem
+# build/  ignorar todos los archivos que se llamen build
+# doc/**/*.pdf    todos los pdf en doc y recursivo
+
+
+!.git
+!.gitignore
+!.kilocode
+
+# Todos los archivos que comienzan con "."
+.*
+# Cualquiera que termine en
+*~
+
+# OTHERS
+*.lnk
+Thumbs*
+*encryptable
+tmp
+TMP
+temp
+TEMP
+tmp*
+TMP*
+temp*
+TEMP*
+*tmp
+*TMP
+*temp
+*TEMP
+
+# Backups
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+# GPG o ssh
+secring.*
+ssh*
+*ssh
+
+# Archivos Diff
+*.patch
+*.diff
+
